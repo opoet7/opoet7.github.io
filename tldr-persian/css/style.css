@@ -1,0 +1,29 @@
+body {
+    font-family: "iranyekanweblight";
+}
+
+.font-en {
+    font-family: "Courier New";
+}
+
+.cmd-title {
+    font-size: 32px !important;
+
+}
+
+.cmd-code {
+    direction: ltr;
+}
+
+.cmd-desc {
+    font-family: "IRANYekanWeb";
+    font-size: 1.5rem;
+}
+
+.cmd-code-desc {
+
+}
+
+.ltr {
+    direction: ltr;
+}
