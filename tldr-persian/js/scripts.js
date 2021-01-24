@@ -39,7 +39,7 @@ $(document).ready(function () {
                         temparr = [];
                         jQuery.each(data, function (j, val) {
                             temparr.push(val.name);
-                            tempHtml = tempHtml + "<button type=\"button\" class=\"btn badge bg-info ms-1\" id=\"" + val.name + "\" onclick=\"javascript:SearchButtonClicked('" + val.name + "');\">" + val.name + "</button>"
+                            tempHtml = tempHtml + "<button type=\"button\" class=\"btn badge bg-info ms-1\" id=\"" + val.name + "\" onclick=\"javascript:SearchButtonClicked('" + val.name + "');\">" + val.name.split(".md")[0] + "</button>"
                         });
 
                         tempHtml = tempHtml + "</div>"
