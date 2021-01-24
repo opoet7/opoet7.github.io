@@ -133,7 +133,7 @@ $('#searchButton').on('click', function (e) {
                 }
             });
         } else {
-            $("#cmdDetails").html("Command help not found... Please select from the tags below.");
+            $("#cmdDetails").html("                    این سایت نسخه فارسی کتابچه راهنمای <a href=\"https://github.com/tldr-pages/tldr/\">TLDR</a> است برای مشاهده دستور مورد نظر را در کادر بالا وارد کرده و بر روی جستجو کلیک کنید. و یا از بخش زیر یکی از دستورات را انتخاب کنید.");
             $("body").animate({scrollTop: 0}, "slow");
         }
     }
