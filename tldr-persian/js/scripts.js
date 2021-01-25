@@ -28,7 +28,6 @@ $(document).ready(function () {
                 template = "<div class='jumbotron'> <p id='osname_" + i + "'></p> <p id='osnameTags_" + i + "'></p> </div>"
 
                 $("#osSection").append(template);
-                $("#osname_" + i).html(os_name);
                 //console.log(os_name);
                 $.ajax({
                     url: CMD_PAGES_URL + os_name,
@@ -37,8 +36,10 @@ $(document).ready(function () {
 
                         tempHtml = "<div id='selector' class=''>";
                         temparr = [];
+						$("#osname_" + i).html(os_name + "(" +data.length + ")");						
                         jQuery.each(data, function (j, val) {
                             temparr.push(val.name);
+							
                             tempHtml = tempHtml + "<button type=\"button\" class=\"btn badge bg-info ms-1\" id=\"" + val.name + "\" onclick=\"javascript:SearchButtonClicked('" + val.name + "');\">" + val.name.split(".md")[0] + "</button>"
                         });
 

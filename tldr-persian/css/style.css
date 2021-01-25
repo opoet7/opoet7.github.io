@@ -1,5 +1,5 @@
 body {
-    font-family: "iranyekanweblight";
+    font-family: "iranyekanweb";
 }
 
 .font-en {
@@ -7,7 +7,8 @@ body {
 }
 
 .cmd-title {
-    font-size: 32px !important;
+    font-size: 2rem !important;
+	font-family: "Courier New";
 
 }
 
@@ -16,8 +17,8 @@ body {
 }
 
 .cmd-desc {
-    font-family: "IRANYekanWeb";
-    font-size: 1.5rem;
+	font-family: "IRANSansWeb";
+    font-size: 1.3rem;
 }
 
 .cmd-code-desc {
@@ -26,4 +27,8 @@ body {
 
 .ltr {
     direction: ltr;
+}
+
+a{
+	font-size: .7rem;
 }
