@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktaymaz_docs=self.webpackChunktaymaz_docs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Tcpdump","permalink":"/t1/en/blog/tcpdump"},{"title":"Welcome","permalink":"/t1/en/blog/welcome"}]}')}}]);
