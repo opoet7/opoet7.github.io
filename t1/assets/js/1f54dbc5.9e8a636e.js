@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktaymaz_docs=self.webpackChunktaymaz_docs||[]).push([[489],{8031:e=>{e.exports=JSON.parse('{"title":"PWK","description":"Penetration testing with Kali","slug":"/category/pwk","permalink":"/docs/category/pwk","navigation":{"next":{"title":"Deploy your site","permalink":"/docs/PWK/deploy-your-site"}}}')}}]);
