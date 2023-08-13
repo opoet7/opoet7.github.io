@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktaymaz_docs=self.webpackChunktaymaz_docs||[]).push([[218],{6692:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/t1/blog/tags/hello","allTagsPath":"/t1/blog/tags","count":1}')}}]);
