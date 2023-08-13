@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktaymaz_docs=self.webpackChunktaymaz_docs||[]).push([[5936],{3195:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/t1/blog/tags/facebook","allTagsPath":"/t1/blog/tags","count":1}')}}]);
